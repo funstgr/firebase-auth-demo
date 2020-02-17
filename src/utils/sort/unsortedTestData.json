@@ -1,0 +1,23 @@
+{"restaurants" :[
+    {
+      "id": 1,
+      "name": "Joes Eats",
+      "rating": 4.4
+    },
+    {
+      "id": 2,
+      "name": "John's Sandwiches",
+      "rating": 3
+    },
+    {
+      "name": "Sue's Rye Sandwiches",
+      "id": 3,
+      "rating": 4.5
+    },
+    {
+      "name": "Moe's Sandwiches",
+      "rating": 5,
+      "id": 4
+    }
+]
+}

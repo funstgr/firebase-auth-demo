@@ -1,0 +1,177 @@
+.add-review{
+  border-width: 1px;;
+  border: solid;
+  border-color: rgb(120, 133, 177);
+  background-color: rgb(66, 76, 85);
+  max-width: 100vw;
+  min-width: 35vw;
+  display: flex;  
+  flex-direction: column;
+  padding-bottom: 40px;
+  color: #ffff;
+  padding:25px 25px 0;
+  border-radius: 3px;
+}
+
+.reviewinfo{
+    border-width: 1px;;
+    border: solid;
+    border-color: red;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(65, 75, 109);
+    width: 100%;
+  }
+  
+.restnav >div{
+  color: white;
+  width: 100px;
+  margin: 10px;
+  line-height: 10vh;
+}
+
+.rest-info{
+  width: 80%;
+  text-align: left;
+}
+  
+.rest-buttons{
+  width: 20%; 
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+    
+.review-item {
+  color: #ffff;
+  padding:25px 25px 0;
+  margin: 20px 20px 0;	
+    border-radius: 3px;
+}
+
+.form-review label,
+.form-review input[type="text"],
+.form-review input[type="password"],
+.form-review input[type="submit"] {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  color: #3A3F44;  
+}
+
+.form-review label {
+  background-color: #222222;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.form-review input[type="text"] {
+  background-color: #ffffff;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.form-review input[type="text"]:focus, .form-review input[type="text"]:hover {
+  background-color: #eeeeee;
+}
+.form-review input[type="submit"] {
+  background-color: #00B9BC;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form-review input[type="submit"]:focus, .form-review input[type="submit"]:hover {
+  background-color: #197071;
+}
+.form-field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-group{
+  margin-bottom: 3rem;
+}
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.text--center {
+  text-align: center;
+}
+
+input {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+.user:before {
+  content: '\f007';
+  font: 14px fontawesome;
+  color: #5b5b5b;
+}
+  
+.lock:before {
+  content: '\f023';
+  font: 14px fontawesome;
+  color: #5b5b5b;
+}
+
+.form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+  width: 100%;
+}
+
+.requirements {
+  padding: 0 30px 0 50px;
+  color: #999;
+  max-height: 0;
+  transition: 0.28s;
+  overflow: hidden;
+  color: red;
+  font-style: italic;
+}
+
+.invalid-feedback {
+  display: block;
+  margin-top: .25rem;
+  font-size: 100%;
+  color: #dc3545;
+    max-width: 100%;
+}
+
+.button{
+  padding: 1rem;
+}
+
+.nodisplay{
+  display: none;
+}
+
+.display{
+  display: block;
+}
+
+#signup-chkbx{
+  background-color: rgb(183, 200, 233);
+}
+
+.review-input{
+  padding:10px;
+}

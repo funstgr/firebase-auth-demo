@@ -1,0 +1,33 @@
+.review {
+  text-align: center;
+  width: 100%;
+}
+
+.review-info-container {
+  
+  padding: 1rem 1rem;
+  background: rgb(74, 80, 110);
+  flex-grow: 1;
+}
+
+.review h4 {
+  font-weight: bold;
+}
+
+.review-card{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: black;
+}
+
+.inner-review-card{
+  padding: 40px;
+}
+
+.button-reviews{
+  padding: 15px;
+}
+
+  
+  

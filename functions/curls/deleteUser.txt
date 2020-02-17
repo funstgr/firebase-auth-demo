@@ -1,0 +1,21 @@
+curl -X POST \
+  https://us-central1-fir-auth-demo-755c2.cloudfunctions.net/deleteUser \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjBhOTAwNTFmYzA5ZThmNjBlMTE2N2ViYzMxMjYwZjNiM2Y2YmJhYmIiLCJ0eXAiOiJKV1QifQ.eyJhZG1pbiI6dHJ1ZSwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2Zpci1hdXRoLWRlbW8tNzU1YzIiLCJhdWQiOiJmaXItYXV0aC1kZW1vLTc1NWMyIiwiYXV0aF90aW1lIjoxNTY5MzM4NzI5LCJ1c2VyX2lkIjoiR0F0MXdHcXlkZmMzNnU0azR2ejV0aFFWMEtJMyIsInN1YiI6IkdBdDF3R3F5ZGZjMzZ1NGs0dno1dGhRVjBLSTMiLCJpYXQiOjE1NjkzMzg3MjksImV4cCI6MTU2OTM0MjMyOSwiZW1haWwiOiJmdW5zdG9uLmdyZWdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImZ1bnN0b24uZ3JlZ0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.Zd1smx-wnp25-HaqnSW7-rUl--tdacQyy0WBDOc4dUehZMDPT6EuU7svlUqKBq-x8ql_dKxqASDCVO9f_2kIG84NnGxaSTebNTuOOFhahiOpVK0sOFCls-n2dXp3H3MPxs9nVBCWk-TAygSw-euUuU-HbcCW1kQP52t8M7Seyfk7padw-htD70Y_Jw_v4TGhGUpTkp2Id1ON00I01qtsTB4LkZDUrn08ocbuAQEYu55zR9eU0gcwJE5GaJsGUAUYcvnDc3pVx6oiHMrX4SVfdtCo49-CAscBiay562Wa3UiIeL241c7ii72qOEmOrmTaNVxJue0m8QgFyJ-sDrMObw' \
+  -H 'Cache-Control: private' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 57' \
+  -H 'Content-Type: application/json' \
+  -H 'Host: us-central1-fir-auth-demo-755c2.cloudfunctions.net' \
+  -H 'Postman-Token: a9a29e7b-e328-4ef3-a67b-dc478e34b42b,f8054b33-0f10-4d5c-bcb9-e8d260637c70' \
+  -H 'User-Agent: PostmanRuntime/7.17.1' \
+  -H 'cache-control: no-cache' \
+  -H 'etag: W/"4a-rrgStccTiLzjGjBFB6B1A16ljsk"' \
+  -H 'function-execution-id: 989ydgljzwn5' \
+  -H 'x-cloud-trace-context: df1aaf856a6366117b40f66a7552211a' \
+  -d '{
+	"data": {
+		"uid": "WPTL5KB12wWwnKwWneduXJacBRB2"
+	}
+}'

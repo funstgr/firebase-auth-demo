@@ -1,0 +1,24 @@
+curl -X POST \
+  https://us-central1-fir-auth-demo-755c2.cloudfunctions.net/createUser \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjBhOTAwNTFmYzA5ZThmNjBlMTE2N2ViYzMxMjYwZjNiM2Y2YmJhYmIiLCJ0eXAiOiJKV1QifQ.eyJhZG1pbiI6dHJ1ZSwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2Zpci1hdXRoLWRlbW8tNzU1YzIiLCJhdWQiOiJmaXItYXV0aC1kZW1vLTc1NWMyIiwiYXV0aF90aW1lIjoxNTY5MjY2NDk4LCJ1c2VyX2lkIjoiR0F0MXdHcXlkZmMzNnU0azR2ejV0aFFWMEtJMyIsInN1YiI6IkdBdDF3R3F5ZGZjMzZ1NGs0dno1dGhRVjBLSTMiLCJpYXQiOjE1NjkzMjk2ODUsImV4cCI6MTU2OTMzMzI4NSwiZW1haWwiOiJmdW5zdG9uLmdyZWdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImZ1bnN0b24uZ3JlZ0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.MoncXEmN5U0IFYYd02XYoj3x25I64yDUFX88Zd4R8XZ_yWa-fVzXqMS9UaZXb1iw28RCULU0A1txJkiC2L-udOaZLIZ749--otuEOuVaOTcm3IYe7dBVGy2uMechN3zGaJ1_0jHDu58JJODV28chVQjbJGjP2fbjCig67z9gnOaMsoNS1AMLY_RHIARAJISfUgrM9JAn-g0hLoOpaqrTuif4vn39EpRWLoWw5Wk04i60Eu2PePDOhtoTK6MbzBMKv77wYtr7__xlCUblIqO5leWQnhCWPQKbMiEtg1Gq1CTfcnIkxfeA7eDk6wUCA60M9-y7YvV12-_DNqP9pSu_Cg' \
+  -H 'Cache-Control: private' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 127' \
+  -H 'Content-Type: application/json' \
+  -H 'Host: us-central1-fir-auth-demo-755c2.cloudfunctions.net' \
+  -H 'Postman-Token: 461d7a38-fbe6-45ce-87d8-7455ef4bc6bb,ed5142bb-aa4e-4e2e-981f-9069bbfb1f0d' \
+  -H 'User-Agent: PostmanRuntime/7.17.1' \
+  -H 'cache-control: no-cache' \
+  -H 'etag: W/"4a-rrgStccTiLzjGjBFB6B1A16ljsk"' \
+  -H 'function-execution-id: 989ydgljzwn5' \
+  -H 'x-cloud-trace-context: df1aaf856a6366117b40f66a7552211a' \
+  -d '{
+	"data": {
+		"email": "test2_email@google.com", 
+		"password": "12345678", 
+		"lastName": "Test", 
+		"firstName": "Test"
+	}
+}'

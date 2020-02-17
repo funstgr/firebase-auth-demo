@@ -1,0 +1,13 @@
+.icon{
+    padding-top: 10px;
+}
+
+.logo{
+    position: absolute;
+    bottom: 20%;
+    left: 110%;
+}
+
+.icon-logo-container{
+    padding-top:10%;
+}

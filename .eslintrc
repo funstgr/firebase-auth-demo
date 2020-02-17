@@ -1,0 +1,28 @@
+{
+    "extends": "airbnb-base",
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true,
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "plugins": ["react"],
+    "rules": {
+      "no-undef": 0,
+      "no-param-reassign": 0,
+      "no-use-before-define": 0,
+      "no-unused-vars": 1,
+      "class-methods-use-this": 0,
+      "no-console": 0,
+      "max-len": ["error", { "code": 120 }],
+      "jsx-a11y/href-no-hash": 0,
+      "linebreak-style": 0,
+      "generator-star-spacing": ["error", {"before": true, "after": false}],
+      "import/no-extraneous-dependencies": 0,
+      "no-plusplus":"off"
+    }
+  }
