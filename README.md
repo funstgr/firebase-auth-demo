@@ -5,6 +5,7 @@
 - Has extensive Unit Tests using Jest and [createRenderer] from [react-test-renderer/shallow]
 - Has precommit hooks for linting and testing both Jest and Cypress
 
+
 ## Environment dependencies
 
 - Node.js 8+ (with bundled version of npm)
